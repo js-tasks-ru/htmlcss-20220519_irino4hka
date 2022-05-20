@@ -1,0 +1,40 @@
+h1, h2, ul, ol {
+    margin: 0;
+}
+a {
+    color: #ffffff;
+    margin: 0 10px;
+}
+.header {
+    background: #d71717;
+    color: #ffffff;
+    text-align: center;
+}
+.navigation {
+    background: #f16518;
+    padding: 10px;
+}
+.main {
+    background: #0db706;
+    color: #ffffff;
+    padding: 10px;
+}
+.article-title {
+    margin: 10px;
+
+}
+.article {
+    background: #374FC7;
+    margin-bottom: 5px;
+    padding: 20px 5px;
+}
+.list {
+    padding: 10px 30px;
+}
+footer {
+    background: #7048E8;
+    text-align: center;
+    color: #ffffff;
+    font-size: xx-large;
+}
+
