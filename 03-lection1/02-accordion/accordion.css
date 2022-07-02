@@ -1,20 +1,19 @@
 
-.accordion {
-    width: 730px;
+.accordion__item {
     left: 544px;
     top: 227px;
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     margin-bottom: 8px;
 }
-.accordion:last-child {
+.accordion__item:last-child {
     margin-bottom: 0;
 }
 .accordion__summary {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    padding: 24px 0 24px 32px;
+    padding: 24px 32px 24px 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,16 +26,15 @@
     width: 16px;
     height: 8px;
     transform: rotate(-180deg);
-    margin-right: 32px;
 }
-details[open] > summary:after {
+.accordion__item[open] > .accordion__summary:after {
     transform: rotate(0deg);
 }
 
-details > summary {
+.accordion__item > .accordion__summary {
     list-style: none;
 }
-details > summary::marker {
+.accordion__item > .accordion__summary::marker {
     display: none;
 }
 .accordion__text-hidden {
